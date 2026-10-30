@@ -1,0 +1,38 @@
+{
+  "modele_retenu": "Forêt aléatoire",
+  "validation": {
+    "Régression logistique": {
+      "f1_attaque": 0.9202,
+      "rappel_attaque": 0.8982,
+      "precision_attaque": 0.9434,
+      "matrice_confusion": {
+        "vrais_negatifs": 424,
+        "faux_positifs": 9,
+        "faux_negatifs": 17,
+        "vrais_positifs": 150
+      }
+    },
+    "Arbre de décision": {
+      "f1_attaque": 0.9527,
+      "rappel_attaque": 0.9641,
+      "precision_attaque": 0.9415,
+      "matrice_confusion": {
+        "vrais_negatifs": 423,
+        "faux_positifs": 10,
+        "faux_negatifs": 6,
+        "vrais_positifs": 161
+      }
+    },
+    "Forêt aléatoire": {
+      "f1_attaque": 0.9819,
+      "rappel_attaque": 0.976,
+      "precision_attaque": 0.9879,
+      "matrice_confusion": {
+        "vrais_negatifs": 431,
+        "faux_positifs": 2,
+        "faux_negatifs": 4,
+        "vrais_positifs": 163
+      }
+    }
+  }
+}
